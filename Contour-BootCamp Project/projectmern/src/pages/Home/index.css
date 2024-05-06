@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+@media only screen and (min-width: 992px){
+
+    .carousel-text-one {
+        text-align: center;
+        font-family: "Orbitron";
+        font-weight: 400;
+        font-size: 25px;
+        color: #ffffff;
+        font-size: 30px;
+      }
+      .carousel-text-two{
+        font-family: "Orbitron";
+        font-weight: 400;
+        font-size: 72px;
+      }
+      .carousel-text-three{
+        font-family: "Orbitron";
+        font-weight: 900;
+        font-size: 130px;
+        color: #f6fe84;
+        text-shadow: 1px 1px 2px;
+      }
+      .carousel-btn{
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        background: whitesmoke;
+        color: black;
+        font-family: 'Orbitron';
+        font-weight: bold;
+        font-size: 26px;
+      }
+      .tag-one {
+        height: 120px;
+        width: 100vw;
+        background: #f6fe84;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        transform: scale(1.1) rotate(-9deg);
+        position: absolute;
+        top: 1040px;
+        z-index: 2;
+      }
+      .tag-two {
+        height: 120px;
+        width: 100vw;
+        background: #ffffff;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        transform: scale(1.1) rotate(9deg);
+        position: absolute;
+        top: 1040px;
+        z-index: 1;
+      }
+      .tag-title {
+        font-family: "Orbitron", sans-serif;
+        font-size: 50px;}
+}
+@media only screen and (max-width: 600px){
+
+    .carousel-text-one {
+        text-align: center;
+        font-family: "Orbitron";
+        font-weight: 200;
+        font-size: 25px;
+        color: #ffffff;
+        font-size: 10px;
+      }
+      .carousel-text-two{
+        font-family: "Orbitron";
+        font-weight: 300;
+        font-size: 16px;
+      }
+      .carousel-text-three{
+        font-family: "Orbitron";
+        font-weight: 700;
+        font-size: 25px;
+        color: #f6fe84;
+        text-shadow: 1px 1px 2px;
+      }
+      .carousel-btn{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background: whitesmoke;
+        color: black;
+        font-family: 'Orbitron';
+        font-weight: bold;
+        font-size: 10px;
+      }
+      .tag-one {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        background: #f6fe84;
+        align-items: center;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        transition: transform 1s cubic-bezier(.22,.61,.36,1);
+        transform: scale(1.1) rotate(0deg);
+
+      }
+      .tag-two {
+        height: 50px;
+        width: 100vw;
+        background: #ffffff;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        transition: transform 1s cubic-bezier(.22,.61,.36,1);
+        transform: scale(1.1) rotate(0deg);
+      }
+      .tag-title {
+        font-family: "Orbitron", sans-serif;
+        font-size: 20px;}
+}
+
+.tag-title {
+  
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 20s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+.tag-two > .tag-title {
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+/* ==============HOME BROCHURE SECTION======================= */
+

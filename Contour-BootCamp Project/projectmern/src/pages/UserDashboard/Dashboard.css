@@ -1,0 +1,72 @@
+::placeholder{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Poppins";
+    color: #191919;
+    padding-left: 10px;
+}
+input[type="date"]::placeholder {
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Poppins";
+    color: #191919;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-right: 10px;
+  }
+  option select{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Poppins";
+    color: #191919;
+  }
+  .modal-content {
+    background-color:#0d324d ;
+    border-radius: 30px;
+  }
+  input{
+    font-family: "Poppins";
+    color: #191919;
+    padding-left: 10px !important;
+  }
+  @media only screen and (max-width: 600px){
+    #sliderContainer{
+      display: none;
+    }
+    .img-goal{
+      width: 350px;
+      height: 200px;
+    }
+    #goal-btn{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 120px !important;
+      margin-top: 20px !important;
+      width: 140px;
+      height: 40px;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    #card-container{
+      display: grid;
+      justify-content: center;
+    }
+    #singlecard{
+      margin-bottom: 20px;
+    }
+    .navbar-section{
+      height: 50px;
+      background-color: #191919;
+      width: 100%;
+    }
+    #paginate-container{
+      width: 40vw;
+      background: red;
+    }
+  }
